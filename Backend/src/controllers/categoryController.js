@@ -29,6 +29,7 @@ export const saveCategory = async (req, res) => {
  * @throws {Error} - Returns a 500 status with an error message if an issue occurs during aggregation.
  */
 
+
 export const listCategories = async (req, res) => {
   try {
     const result = await Category.aggregate([
